@@ -1,3 +1,2 @@
-def run():
-    print("ARP Scanner tool – placeholder (logic will be here)")
-
+def run(interface, network):
+    print(f"[+] Running ARP scan on {network} via {interface}")
